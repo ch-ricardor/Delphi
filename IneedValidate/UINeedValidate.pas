@@ -296,7 +296,7 @@ begin
         }
            Schema := CoXMLSchemaCache60.Create;
            {
-              Obtrencion de valores de los Esquemas
+              Obtencion de valores de los Esquemas
               Definiciones en schemaLocation, en varias versiones en XML
               schemalocation=refhttp refhttp/xsd
            }
