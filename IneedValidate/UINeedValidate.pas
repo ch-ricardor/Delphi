@@ -215,7 +215,7 @@ begin
        {
           Obtencion de Publicidad Internet
        }
-       internetFile := 'http://www.adsmexico.com/logistica/publicity/pub_banner.jpg';
+       internetFile := 'http://myurl.com/logistica/publicity/pub_banner.jpg';
        localFileName := 'banner.jpg';
 
        if GetInetFile(internetFile, localFileName) then
