@@ -8,7 +8,7 @@ Esta aplicación esta dirigida al departamento de soporte técnico en sistemas, 
 
 ### Riesgos a considerar.
 
--	El archivo de factura electrónica es un archivo editable, que puede ser modificado en forma deliberada o accidental.
+-	El archivo de factura electrónica es un archivo editable (XML), que puede ser modificado en forma deliberada o accidental.
 -	Las modificaciones no necesariamente son detectables a simple vista.
 -	Las modificaciones pueden suceder aún después de haber validado su comprobante por cualquiera de los medios disponibles.
 -	El Emisor, puede ser que no cuente con los elementos técnicos computacionales para poder emitir un documento completo.
