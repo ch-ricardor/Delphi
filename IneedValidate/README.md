@@ -27,4 +27,14 @@ Esta aplicación esta dirigida al departamento de soporte técnico en sistemas, 
 - *Logos and images can be changed dynamically, or you can edit the hardcode section.*
 - *In the UINeedValidate.pas line 218, modify the _URL_ where the banner image is stored, this allow you to change that image dynamically* 
 
+Load the XML document to validate, then you can review the content and finally you can validate it.
+*The Invoice (XML) should contain the reference for the valids XSD files
+
+<code>
+<?xml version="1.0" encoding="UTF-8"?><cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd">
+
+</code>
+The process will present the screen in green color if the document matched with the xsd specified.
+
+![Alt text](img/ineedvalidatescr01.jpg?raw=true "Valid document")
 
