@@ -1,5 +1,5 @@
 # Delphi
-Mixed programming demos using Delphi
+Programming demos using Delphi, validating and transforming XMLs, reading certificates, etc. 
 
 In this section are stored some examples related to the process of the Mexican electronic invoice, which involve:
 
